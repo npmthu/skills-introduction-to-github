@@ -1,0 +1,13 @@
+hart 2 starting
+hart 1 starting
+init: starting sh
+$ (echo 1 ; echo 2) | xargs -n 1 echo
+xargs: exec failed
+xargs: exec failed
+$ echo hello too | xargs echo bye
+bye hello hello
+$ find . b | xargs grep hello
+exec find failed
+$ sh < xargstest.sh
+$ $ $ $ $ $ exec find failed
+$ $ 
